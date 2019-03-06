@@ -26,7 +26,7 @@
     "jsmidgen": "^0.1.5",
     "midi-file-parser": "^1.0.0",
     "midiconvert": "0.4.1",
-    "node-sass": "^3.4.2",
+    "node-sass": "^3.13.1",
     "pepjs": "^0.4.2",
     "sass-loader": "^3.2.0",
     "startaudiocontext": "^1.2.0",

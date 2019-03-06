@@ -1,7 +1,7 @@
 @import 'common.scss';
 
 #glow {
-
+	display: none !important;
 	#ai, #user {
 		width: 100%;
 		height: 100%;

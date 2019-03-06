@@ -58,45 +58,45 @@ class Splash extends events.EventEmitter{
 			this.emit('about')
 		})
 
-		const badges = document.createElement('div')
-		badges.id = 'badges'
-		splash.appendChild(badges)
+		// const badges = document.createElement('div')
+		// badges.id = 'badges'
+		// splash.appendChild(badges)
 
-		const aiExperiments = document.createElement('a')
-		aiExperiments.id = 'aiExperiments'
-		aiExperiments.href = 'https://aiexperiments.withgoogle.com'
-		aiExperiments.target = '_blank'
-		aiExperiments.classList.add('badge')
-		badges.appendChild(aiExperiments)
+		// const aiExperiments = document.createElement('a')
+		// aiExperiments.id = 'aiExperiments'
+		// aiExperiments.href = 'https://aiexperiments.withgoogle.com'
+		// aiExperiments.target = '_blank'
+		// aiExperiments.classList.add('badge')
+		// badges.appendChild(aiExperiments)
 
-		// break
-		const break0 = document.createElement('div')
-		break0.classList.add('badgeBreak')
-		badges.appendChild(break0)
+		// // break
+		// const break0 = document.createElement('div')
+		// break0.classList.add('badgeBreak')
+		// badges.appendChild(break0)
 
-		const googleFriends = document.createElement('a')
-		googleFriends.id = 'googleFriends'
-		googleFriends.classList.add('badge')
-		badges.appendChild(googleFriends)
+		// const googleFriends = document.createElement('a')
+		// googleFriends.id = 'googleFriends'
+		// googleFriends.classList.add('badge')
+		// badges.appendChild(googleFriends)
 
-		//break two
-		const break1 = document.createElement('div')
-		break1.classList.add('badgeBreak')
-		badges.appendChild(break1)
+		// //break two
+		// const break1 = document.createElement('div')
+		// break1.classList.add('badgeBreak')
+		// badges.appendChild(break1)
 
-		const magenta = document.createElement('a')
-		magenta.href = 'https://magenta.tensorflow.org/'
-		magenta.target = '_blank'
-		magenta.id = 'magentaLink'
-		magenta.classList.add('badge')
-		const imgHtml = '<div id="img"></div>'
-		magenta.innerHTML = imgHtml + '<div id="text">Built using <span>Magenta</span></div>'
-		badges.appendChild(magenta)
+		// const magenta = document.createElement('a')
+		// magenta.href = 'https://magenta.tensorflow.org/'
+		// magenta.target = '_blank'
+		// magenta.id = 'magentaLink'
+		// magenta.classList.add('badge')
+		// const imgHtml = '<div id="img"></div>'
+		// magenta.innerHTML = imgHtml + '<div id="text">Built using <span>Magenta</span></div>'
+		// badges.appendChild(magenta)
 
-		const privacyAndTerms = document.createElement('div')
-		privacyAndTerms.id = 'privacyAndTerms'
-		privacyAndTerms.innerHTML = '<a target="_blank" href="https://www.google.com/intl/en/policies/privacy/">Privacy</a><span>&</span><a target="_blank" href="https://www.google.com/intl/en/policies/terms/">Terms</a>'
-		splash.appendChild(privacyAndTerms)
+		// const privacyAndTerms = document.createElement('div')
+		// privacyAndTerms.id = 'privacyAndTerms'
+		// privacyAndTerms.innerHTML = '<a target="_blank" href="https://www.google.com/intl/en/policies/privacy/">Privacy</a><span>&</span><a target="_blank" href="https://www.google.com/intl/en/policies/terms/">Terms</a>'
+		// splash.appendChild(privacyAndTerms)
 
 	}
 

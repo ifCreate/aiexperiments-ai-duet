@@ -9,7 +9,7 @@ body, #container{
 	top: 0px;
 	left: 0px;
 	margin: 0px;
-	background-color: black;
+	background-color: #1B1C2A;
 
 	#keyboard {
 		position: absolute;

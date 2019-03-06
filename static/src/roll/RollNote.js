@@ -18,8 +18,8 @@ const THREE = require('three')
 import {Roll} from 'roll/Roll'
 
 const geometry = new THREE.PlaneBufferGeometry( 1, 1, 1 )
-const material = new THREE.MeshBasicMaterial( {color: 0x1FB7EC, side: THREE.BackSide} )
-const aiMaterial = new THREE.MeshBasicMaterial( {color: 0xFFB729, side: THREE.BackSide} )
+const material = new THREE.MeshBasicMaterial( {color: 0x4589F4, side: THREE.BackSide} )
+const aiMaterial = new THREE.MeshBasicMaterial( {color: 0xFF7877, side: THREE.BackSide} )
 
 export class RollNote {
 	constructor(element, ai){
