@@ -17,8 +17,8 @@
 const THREE = require('three')
 
 const geometry = new THREE.PlaneGeometry( 1, 1, 1 )
-const material = new THREE.MeshBasicMaterial( {color: 0x1FB7EC, side: THREE.DoubleSide} )
-const aiMaterial = new THREE.MeshBasicMaterial( {color: 0xFFB729, side: THREE.DoubleSide} )
+const material = new THREE.MeshBasicMaterial( {color: 0x4589F4, side: THREE.DoubleSide} )
+const aiMaterial = new THREE.MeshBasicMaterial( {color: 0xFF7877, side: THREE.DoubleSide} )
 
 window.zero = new THREE.Vector3(0, 0, 0)
 
@@ -38,7 +38,7 @@ class RollClass {
 		this._scene = new THREE.Scene()
 
 		this._renderer = new THREE.WebGLRenderer({alpha: true})
-		this._renderer.setClearColor(0x000000, 0)
+		this._renderer.setClearColor(0xffffff, 0)
 		this._renderer.setPixelRatio( window.devicePixelRatio )
 		this._renderer.sortObjects = false
 		this._element.appendChild(this._renderer.domElement)

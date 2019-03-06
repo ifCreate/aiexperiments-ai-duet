@@ -17,6 +17,7 @@
 @import 'common.scss';
 
 #aboutButton {
+	display: none !important;
 	$closeSize : 30px;
 	position: absolute;
 	top: 15px;
@@ -33,6 +34,7 @@
 	}
 
 	&:before{
+		display: none !important;
 		font-family: $font-family;
 		font-weight: bold;
 		width: 100%;
@@ -58,7 +60,7 @@
 	}
 
 	&.show.open:before {
-		display: inline-block;
+		display: none !important;
 	}
 }
 
