@@ -27,18 +27,43 @@ import time
 import json
 
 from flask import Flask
-app = Flask(__name__, static_url_path='', static_folder=os.path.abspath('../static'))
+from flask_cors import *
 
+app = Flask(__name__, static_url_path='', static_folder=os.path.abspath('../static'))
+CORS(app, supports_credentials=True)
+
+
+pattern = 4
+tempo = 120
+total_time = 6
+model = 'attention_rnn'
 
 @app.route('/predict', methods=['POST'])
 def predict():
+    global pattern
+    global tempo
+    global total_time
+    global model
     now = time.time()
     values = json.loads(request.data)
     midi_data = pretty_midi.PrettyMIDI(StringIO(''.join(chr(v) for v in values)))
     duration = float(request.args.get('duration'))
-    ret_midi = generate_midi(midi_data, duration)
+    ret_midi = generate_midi(midi_data, pattern, tempo, total_time, model)
     return send_file(ret_midi, attachment_filename='return.mid', 
         mimetype='audio/midi', as_attachment=True)
+
+
+@app.route('/setparament', methods=['POST'])
+def setparament():
+    global pattern
+    global tempo
+    global total_time
+    global model
+    pattern = int(request.form.get('pattern'))
+    tempo = int(request.form.get('tempo'))
+    total_time = int(request.form.get('time'))
+    model = str(request.form.get('model'))
+    return 'Done'
 
 
 @app.route('/', methods=['GET', 'POST'])

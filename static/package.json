@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "webpack -p",
-    "watch": "webpack -w"
+    "watch": "webpack -w",
+    "dev": "webpack-dev-server --inline --hot --config webpack.config.js"
   },
   "dependencies": {
     "autoprefixer-loader": "^3.2.0",
@@ -36,6 +37,7 @@
     "url-loader": "^0.5.7",
     "webmidi": "^2.0.0-beta.1",
     "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.16.2",
     "youtube-iframe": "^1.0.3"
   }
 }

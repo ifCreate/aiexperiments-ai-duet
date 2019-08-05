@@ -66,14 +66,6 @@ export class Tutorial extends events.EventEmitter{
 		container.appendChild(this._tutorial)
 	}
 	start(){
-		if (window.localStorage){
-			if (window.localStorage.getItem('showedTutorial') === 'true' && window.location.hash !== '#tutorial'){
-				return 
-			} else {
-				window.localStorage.setItem('showedTutorial', 'true') 
-			}
-		}
-
 		this._promiseTimeout(400).then(() => {
 			this._addText('When you play a few notes', 'user', 4200)
 			return this._promiseTimeout(1000)

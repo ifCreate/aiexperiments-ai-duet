@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a9e78f8-7c81-4a7c-b15b-e6b67e1c769f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../server/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/../server/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../server/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/A0.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/A0.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/A1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/A1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/A2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/A2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/A3.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/A3.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/A4.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/A4.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/A5.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/A5.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/A6.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/A6.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/A7.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/A7.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/C1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/C1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/C2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/C2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/C3.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/C3.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/C4.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/C4.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/C5.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/C5.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/C6.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/C6.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/C7.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/C7.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/C8.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/C8.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Ds1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Ds1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Ds2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Ds2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Ds3.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Ds3.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Ds4.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Ds4.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Ds5.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Ds5.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Ds6.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Ds6.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Ds7.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Ds7.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Fs1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Fs1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Fs2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Fs2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Fs3.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Fs3.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Fs4.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Fs4.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Fs5.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Fs5.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Fs6.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Fs6.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/string_ensemble/Fs7.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/audio/string_ensemble/Fs7.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ai/AI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai/AI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ai/Tutorial.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai/Tutorial.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/About.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/Splash.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/Splash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roll/Roll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/roll/Roll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/splash.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/splash.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/node_modules/" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="static" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-435">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interface/light_window.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/demo/demo_init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/light_window.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ai/AI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-553" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#597#639#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>webpack</find>
+      <find>slider-b</find>
+      <find>this._pattern</find>
+      <find>dos</find>
+      <find>app</find>
+      <find>apply</find>
+      <find>temperature</find>
+      <find>time</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>time</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/aiexperiments-ai-duet/static/webpack.config.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style/light_window.css" />
+        <option value="$PROJECT_DIR$/src/interface/light_window.js" />
+        <option value="$PROJECT_DIR$/src/demo/demo_init.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="static" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/aiexperiments-ai-duet/static" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="static" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/aiexperiments-ai-duet/static" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="static" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/aiexperiments-ai-duet/static" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ai" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="static" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/aiexperiments-ai-duet/static" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="demo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="static" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/aiexperiments-ai-duet/static" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="style" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a9e78f8-7c81-4a7c-b15b-e6b67e1c769f" name="Default Changelist" comment="" />
+      <created>1562859261897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562859261897</updated>
+      <workItem from="1562859262979" duration="1583000" />
+      <workItem from="1564971042823" duration="10655000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12238000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.24947146" />
+      <window_info id="Favorites" order="2" sideWeight="0.50089765" side_tool="true" weight="0.24947146" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/aiexperiments-ai-duet/static/webpack.config.js" />
+    <entry file="file://$USER_HOME$/aiexperiments-ai-duet/static/build/0.js" />
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81540">
+          <caret line="5436" column="6" lean-forward="true" selection-start-line="5436" selection-start-column="6" selection-end-line="5436" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/roll/Roll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1515">
+          <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="e#596#630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sound/Sound.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sound/Sampler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/keyboard/Note.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/keyboard/Midi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-555" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/keyboard/Keyboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/keyboard/Element.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/Loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/Glow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/Splash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#597#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#597#639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ai/AI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-553" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/light_window.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/light_window.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/demo_init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -13,6 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import 'style/materialize.min.css'
+import 'style/fonts-material-icons.css'
+import 'src/jquery-3.2.1.min.js'
+import 'src/materialize.min.js'
 
 const THREE = require('three')
 
@@ -30,6 +34,16 @@ class RollClass {
 	constructor(container){
 		this._element = document.createElement('div')
 		this._element.id = 'roll'
+
+		this._learning = document.createElement('button')
+		this._learning.id = 'learning'
+		this._learning.innerHTML = 'Learning <i class="material-icons" style="vertical-align: middle">code</i>'
+		this._learning.addEventListener('click', function () {
+			document.querySelector('.dark_window').style.display = 'block'
+			document.querySelector('.light_window').style.display = 'block'
+		},false)
+		this._element.appendChild(this._learning)
+
 
 		this._camera = new THREE.OrthographicCamera(0, 1, 1, 0, 1, 1000 )
 		this._camera.position.z = 1
