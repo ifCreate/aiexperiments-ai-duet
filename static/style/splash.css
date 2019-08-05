@@ -42,46 +42,6 @@ $topMargin: 35px;
 			font-weight: 300;
 		}
 
-		#subTitle, #howItWorks {
-			margin-top: $topMargin;
-			letter-spacing: 0.8px;
-			line-height: 30px;
-			font-size: 15px;
-			width: 100%;
-			margin-left: auto;
-			margin-right: auto;
-			text-align: center;
-			font-weight: 300;
-		}
-
-		#howItWorks {
-			$size : 20px;
-			$margin: 30px;
-
-			color: $orange;
-			width: auto;
-			display: inline-block;
-			margin-left: $margin;
-
-			&:before {
-				position: absolute;
-				width: $size;
-				height: $size;
-				margin-left: -$margin;
-				margin-top: $size / 4;
-				content : '';
-				background-image: url(../images/yellow_play_triangle.svg);
-			}
-
-			cursor: pointer;
-
-			transition: transform 0.1s;
-
-			&:hover {
-				transform: scale(1.1);
-			}
-		}
-
 		$loaderWidth: 200px;
 		$loaderHeight: 60px;
 

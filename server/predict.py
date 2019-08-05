@@ -29,41 +29,41 @@ import time
 import tempfile
 import pretty_midi
 
-BUNDLE_NAME = 'attention_rnn'
-
-config = magenta.models.melody_rnn.melody_rnn_model.default_configs[BUNDLE_NAME]
-bundle_file = magenta.music.read_bundle_file(os.path.abspath(BUNDLE_NAME+'.mag'))
-steps_per_quarter = 4
-
-generator = melody_rnn_sequence_generator.MelodyRnnSequenceGenerator(
-      model=melody_rnn_model.MelodyRnnModel(config),
-      details=config.details,
-      steps_per_quarter=steps_per_quarter,
-      bundle=bundle_file)
-
-def _steps_to_seconds(steps, qpm):
+def _steps_to_seconds(steps, qpm, steps_per_quarter):
     return steps * 60.0 / qpm / steps_per_quarter
 
-def generate_midi(midi_data, total_seconds=10):
+def generate_midi(midi_data, pattern, tempo, total_seconds, model):
     primer_sequence = magenta.music.midi_io.midi_to_sequence_proto(midi_data)
 
-    # predict the tempo
-    if len(primer_sequence.notes) > 4:
-        estimated_tempo = midi_data.estimate_tempo()
-        if estimated_tempo > 240:
-            qpm = estimated_tempo / 2
-        else:
-            qpm = estimated_tempo
-    else:
-        qpm = 120
-    primer_sequence.tempos[0].qpm = qpm
+    BUNDLE_NAME = model
+
+    config = magenta.models.melody_rnn.melody_rnn_model.default_configs[BUNDLE_NAME]
+    bundle_file = magenta.music.read_bundle_file(os.path.abspath(BUNDLE_NAME + '.mag'))
+
+    generator = melody_rnn_sequence_generator.MelodyRnnSequenceGenerator(
+        model=melody_rnn_model.MelodyRnnModel(config),
+        details=config.details,
+        steps_per_quarter=pattern,
+        bundle=bundle_file)
+    #
+    # # predict the tempo
+    # if len(primer_sequence.notes) > 4:
+    #     estimated_tempo = midi_data.estimate_tempo()
+    #     if estimated_tempo > 240:
+    #         qpm = estimated_tempo / 2
+    #     else:
+    #         qpm = estimated_tempo
+    # else:
+    #     qpm = 120
+
+    primer_sequence.tempos[0].qpm = tempo
 
     generator_options = generator_pb2.GeneratorOptions()
     # Set the start time to begin on the next step after the last note ends.
     last_end_time = (max(n.end_time for n in primer_sequence.notes)
                      if primer_sequence.notes else 0)
     generator_options.generate_sections.add(
-        start_time=last_end_time + _steps_to_seconds(1, qpm),
+        start_time=last_end_time + _steps_to_seconds(1, tempo, pattern),
         end_time=total_seconds)
 
     # generate the output sequence

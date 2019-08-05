@@ -19,35 +19,20 @@ import {AI} from 'ai/AI'
 import {Sound} from 'sound/Sound'
 import {Glow} from 'interface/Glow'
 import {Splash} from 'interface/Splash'
-import {About} from 'interface/About'
 import {Tutorial} from 'ai/Tutorial'
+import {LightWindow} from 'interface/light_window'
 import 'babel-polyfill'
 
 /////////////// SPLASH ///////////////////	
 
-const about = new About(document.body)
+// const about = new About(document.body)
 const splash = new Splash(document.body)
 splash.on('click', () => {
 	keyboard.activate()
 	tutorial.start()
-	about.showButton()
+	// about.showButton()
 })
-splash.on('about', () => {
-	about.open(true)
-})
-about.on('close', () => {
-	if (!splash.loaded || splash.isOpen()){
-		splash.show()
-	} else {
-		keyboard.activate()
-	}
-})
-about.on('open', () => {
-	keyboard.deactivate()
-	if (splash.isOpen()){
-		splash.hide()
-	}
-})
+
 
 
 /////////////// PIANO ///////////////////
@@ -55,6 +40,16 @@ about.on('open', () => {
 const container = document.createElement('div')
 container.id = 'container'
 document.body.appendChild(container)
+
+const dark_window = document.createElement('div')
+dark_window.className = 'dark_window'
+document.body.appendChild(dark_window)
+
+const light_window = document.createElement('div')
+light_window.className = 'light_window'
+document.body.appendChild(light_window)
+
+const light_window_content = new LightWindow(light_window)
 
 const glow = new Glow(container)
 const keyboard = new Keyboard(container)

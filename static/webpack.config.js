@@ -32,7 +32,15 @@ module.exports = {
 		root: __dirname,
 		modulesDirectories : ['node_modules', 'src', 'third_party', 'node_modules/tone', 'style'],
 	},
+	devServer:{
+		host:'localhost',
+		port:'8080',
+		open:true,
+		hot:true,
+		//hotOnly:true
+	},
 	plugins: PROD ? [
+		new webpack.HotModuleReplacementPlugin(),
 	    new webpack.optimize.UglifyJsPlugin({minimize: true})
 	  ] : [],
 	 module: {

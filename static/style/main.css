@@ -26,6 +26,24 @@ body, #container{
 		left: 0px;
 	}
 
+	#learning {
+		right: 20px;
+		position: absolute;
+		top: 20px;
+		background-color: rgba(255, 255, 255, 0.09);
+		border-radius: 5px;
+		border: none;
+		color: rgba(255, 255, 255, 0.5);
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		padding: 10px 20px;
+		font-size: 1em;
+		margin: 0;
+		text-transform:capitalize;
+		cursor: pointer;
+	}
+
 	#glow {
 		width : 100%;
 		height: calc(100% - #{$keyboardHeight + $bottomHeight});
@@ -55,4 +73,34 @@ body, #container{
 		filter: none;
 		opacity: 1;
 	}
+}
+
+.dark_window {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0;
+	opacity:.0;
+	filter: alpha(opacity=0);
+}
+
+.light_window{
+	display: none;
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	width: 80%;
+	height: 85%;
+	background-color: #1f2029;
+	text-align: center;
+	z-index:1002;
+	overflow: auto;
+	color: white;
+	border: solid 1px #363636;
+	border-radius: 10px;
 }
