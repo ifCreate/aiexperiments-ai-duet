@@ -28,8 +28,9 @@ import json
 
 from flask import Flask
 from flask_cors import *
-
-app = Flask(__name__, static_url_path='', static_folder=os.path.abspath('../static'))
+static_path = os.path.join(os.path.dirname(__file__), '../static')
+print("Serving files from " + static_path)
+app = Flask(__name__, static_url_path='', static_folder=static_path)
 CORS(app, supports_credentials=True)
 
 
