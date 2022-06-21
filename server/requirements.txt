@@ -19,7 +19,7 @@ MarkupSafe==1.1.1
 matplotlib==2.2.4
 mido==1.2.9
 mock==3.0.5
-numpy==1.16.5
+numpy==1.22.0
 pathlib2==2.3.4
 pexpect==4.7.0
 pickleshare==0.7.5
